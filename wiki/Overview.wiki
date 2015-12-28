@@ -1,0 +1,22 @@
+Facebook Photo Contests is an web-application designed to run within facebook. Facebook users who use this application would be able to create and participate in photo contests, where other Facebook users are the judges. 
+
+Facebook Photo Contests is mostly tested through the interface, manually (unfortunately). We have also written a few JSPs that act as automated tests, whenever there are changes, you can run these JSPs to see if anything is broken.
+
+The main architecture of the system is a Client-Server architecture, like most web-applications. The client is actually the Facebook servers, who act on behalf of the user, and makes a request to our Server (hosted by Google App Engine). In more technical terms, the Facebook servers acts as proxies to the end users.
+
+The application is deployed to Google App Engine, where it is being hosted. Currently our developers are deploying to Google by using Eclipse and the Google App Engine SDK plugin for Eclipse. More information can be found here...
+
+http://code.google.com/appengine/docs/java/tools/eclipse.html
+
+Currently, the developers of Facebook Photo Contests are:
+
+Alex Kwok - Back-end Java Specialist <br />
+Jackie Huynh - Project Management and General Development <br />
+James Cheng - Front-end JSP Specialist <br />
+Karen Lee - General Development
+
+Our work was mainly distributed through team meetings on a weekly basis. Additionally, we used Google Code's Issue tracking system to assign tasks/bugs/enhancements to the developers.
+
+For more information, feel free to contact...<br />
+Jackie Huynh <br />
+E-mail: jackiehuynh@gmail.com

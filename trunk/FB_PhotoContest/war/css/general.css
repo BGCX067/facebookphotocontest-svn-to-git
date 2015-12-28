@@ -1,0 +1,122 @@
+
+/*Start default settings for pages */
+table 
+{
+	border-spacing:0px;
+	border-collapse: collapse;
+	border:0px;
+}
+
+table td, table th, img
+{
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,input,textarea,select 
+{
+	font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size:11px;  
+}
+
+h1,h2,h3,h4,h5,h6,p,a
+{
+	margin:0px 0px 0px 0px;
+	padding:10px 10px 10px 10px;
+}
+
+input, textarea, select 
+{ 
+	border:1px solid #BDC7D8; 
+	padding:3px 3px 3px 3px; 
+	margin:0px 0px 0px 0px;
+} 
+
+input:focus, textarea:focus, select:focus 
+{
+	border:1px solid #687FB0;
+} 
+
+input.search 
+{ 
+	background:white url('http://www.facebook.com/images/magglass.png') no-repeat scroll 3px 4px;
+	padding-left:17px;
+} 
+
+textarea 
+{
+	overflow:auto;
+}
+
+/* End default settings for pages */
+
+/* Start PHOTO CONTEST created CSS */
+
+.fb_bluebg
+{
+	background-color:#3b5998;
+	width:760px; 
+	height:50px;
+}
+
+#header
+{
+	text-align:right;
+	vertical-align:middle;
+	display:table-cell;
+}
+
+#header h1
+{
+	color:#ffffff;
+	font-size:18px;
+}
+
+.floatleft
+{
+	float:left;
+	width:160px;
+	height:600px;
+	background-color:#eceff6;
+	overflow-y:auto;
+}
+
+.fbgreybox  
+{  
+	background-color: #f7f7f7;  
+	color:#333333;  
+	float:right;
+	width:600px;
+	height:600px;
+	overflow-y:auto;
+} 
+
+#middlesubmitphoto
+{
+	text-align:center;
+	display:table-cell;	
+	padding:10px 0px 0px 0px;
+}
+
+#middlecontenttitle h1
+{
+	font-size:14px;
+	color:#333333;
+	font-weight:bold;
+}
+
+.middlecontestfields
+{
+	text-align:right;
+}
+
+.middlecontestfields h2
+{
+	line-height:11px;
+}
+
+.pop_dialog_table 
+{  
+	width: 650px !important;  
+}

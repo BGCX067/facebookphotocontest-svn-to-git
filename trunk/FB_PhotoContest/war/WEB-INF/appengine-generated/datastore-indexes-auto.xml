@@ -1,0 +1,15 @@
+<!-- Indices written at Mon, 30 Nov 2009 05:58:11 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Contestant" ancestor="true" source="auto">
+        <property name="acceptedContestants_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Contestant" ancestor="true" source="auto">
+        <property name="contestants_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

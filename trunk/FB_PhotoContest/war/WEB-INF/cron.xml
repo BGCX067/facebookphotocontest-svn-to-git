@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/cron/processClosedContests.jsp</url>
+    <description>Process the Closed Contests, such as calculate points and declare winners.</description>
+    <schedule>every day 02:00</schedule>
+    <timezone>America/Vancouver</timezone>
+  </cron>
+</cronentries>
